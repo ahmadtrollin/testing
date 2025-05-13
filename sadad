@@ -5,7 +5,7 @@ return {
 	version = function()
 		local yPosition = 0  -- Keep track of vertical position
 		local spacing = 0    -- Space between lines
-		local ScrollFrame = script.Parent
+		local ScrollFrame = game.Players.LocalPlayer.PlayerGui.ScreenGui.Frame.ScrollingFrame
 		local function createOutput(text)
 			local textLabel = Instance.new("TextLabel")
 			textLabel.Size = UDim2.new(1, -10, 0, 30)
