@@ -1,0 +1,8 @@
+return {
+	hello = function(name)
+		print("Hello, " .. name)
+	end,
+	version = function()
+		print("v1.0.0")
+	end
+}
