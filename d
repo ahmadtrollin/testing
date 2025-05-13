@@ -1,11 +1,11 @@
+-- name: HelloWorld
+-- version: 1.0.0
+-- description: Simple test module
+
 local module = {}
 
-module.name = "CoolPackage"
-module.description = "This package prints hello."
-module.version = "1.0.0"
-
-function module.createOutput()
-    return "hello!"
+function module.sayHello()
+	print("Hello from HelloWorld!")
 end
 
 return module
