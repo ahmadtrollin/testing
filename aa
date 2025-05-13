@@ -3,6 +3,6 @@ return {
 		print("Hello, " .. name)
 	end,
 	version = function()
-		return "v1.0.0"
+		print("v1.0.0")
 	end
 }
